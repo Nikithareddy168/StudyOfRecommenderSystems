@@ -1,7 +1,4 @@
-This repo contains the implementaion of memory based collaborative filtering.
-This approach leverages similarities in either items or users to generate new recommendations.
-Memory-based Collaborative filtering is  categorized into two types:
- - user-user collaborative filtering
- - item-item collaborative filtering
- 
- This repo conatins implementations of both the algorithms
+Model based collaborative filtering algorithms finds the low rank matrices from the incomplete rating matrix.
+They generate the recommendations by approximately constructing fully specified rating matrix from the low rank matrices.
+
+This repo contains SGD and ALS implementations to find low rank matrices and construct a fully specified rating matrix.
